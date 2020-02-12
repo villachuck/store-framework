@@ -36,7 +36,8 @@
     "children": [
       "product-name",
       "product-identifier.product",
-      "buy-button"
+      "product-price",
+      "flex-layout.row#qty-sku"
     ]
   },
 
@@ -44,11 +45,7 @@
     "props": {
       "showSavings": true,
       "showListPrice": true
-    },
-    "children":[
-      "product-price",
-      "flex-layout.row#qty-sku"
-    ]
+    }
   },
 
   "flex-layout.row#qty-sku": {
